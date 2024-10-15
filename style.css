@@ -1,0 +1,123 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.todo-list {
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #963eac;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.todo-app {
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 40px 30px 70px;
+  margin: 100px auto 20px;
+  background-color: white;
+  width: 100%;
+  max-width: 540px;
+  border-radius: 10px;
+  color: #002765;
+  margin-bottom: 20px;
+}
+
+.input-todo {
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  background-color: #edeef0;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+#input {
+  border-radius: 10px;
+  width: 10cm;
+  height: 1cm;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.input-todo button {
+  width: 3cm;
+  height: 1cm;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: #fd6f5f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+
+.input-todo button:hover {
+  background-color: #fd9c92;
+  color: white;
+}
+
+.list-item {
+  padding: 12px 8px 12px 50px;
+  list-style: none;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 17px;
+}
+ul {
+  list-style: none;
+}
+
+.delete-button {
+  width: 3cm;
+  height: 1cm;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(108, 238, 108);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  right: 0;
+  justify-content: space-between;
+}
+
+.delete-button:hover {
+  background-color: rgb(143, 235, 143);
+}
+
+.listrow {
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  background-color: #edeef0;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  width: 14cm;
+  height: 2cm;
+  font-size: 17px;
+}
